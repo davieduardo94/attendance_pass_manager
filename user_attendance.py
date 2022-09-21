@@ -3,3 +3,6 @@ class UserAttendance():
         self.name = name
         self.attendance = attendance
         self.enterDate = enterDate
+
+    def __str__(self) -> str:
+         return "Bem vindo %s \nTipo atendimento: %s \nHorario: %s" %(self.name, self.attendance, self.enterDate)
