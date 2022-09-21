@@ -20,4 +20,4 @@ class PassManager():
         return self.last_password
 
     def __str__(self) -> str:
-        return "Current Password: %s \nLast Password: %s", self.current_password, self.last_password
+        return "Current Password: %s \nLast Password: %s" %(self.current_password, self.last_password)
