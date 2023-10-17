@@ -11,7 +11,7 @@ class MongoCon():
         self.conn = MongoClient(self.uri)
         
     
-    def make_db(self, db_name, coll_name):
+    def make_db(self):
         self.db = self.conn.attendance_password
         collection = self.db.user_attendance
         return collection
