@@ -17,5 +17,5 @@ class NormalPassword(PasswordGenerator):
         else:
             self.__password = self.__init + 1
             self.__init += 1
-        result = "Senha &: \nN%".format(self.attendance_type,self.__password)
+        result = "Senha {}: N{}".format(self.attendance_type,self.__password)
         return result

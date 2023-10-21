@@ -17,5 +17,5 @@ class PriorityPassword(PasswordGenerator):
         else:
             self.__password = self.__init + 1
             self.__init += 1
-        result = "Senha &: \nP%".format(self.attendance_type,self.__password)
+        result = "Senha {}: P{}".format(self.attendance_type,self.__password)
         return result
