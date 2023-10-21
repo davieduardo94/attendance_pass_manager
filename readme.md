@@ -1,4 +1,3 @@
 ## Schema UML utilizando o Factory Method
 
-![Alt text](image.png)
-
+![Schema Factory Method](image-1.png)
