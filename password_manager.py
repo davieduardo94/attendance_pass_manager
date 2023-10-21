@@ -7,5 +7,5 @@ class PasswordManager():
     
     def createAttendance(self):
         password = self.createPwd()
-        return f"Gerando senha:\n{password.generatePwd()}"
+        return f"Gerando senha\n{password.generatePwd()}"
     
