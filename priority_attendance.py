@@ -6,7 +6,7 @@ class PriorityAttendance(PasswordManager):
     def __init__(self, attendance_type):
         self.attendance_type = attendance_type
         
-    def createPwd(self):
+    def create_pwd(self):
         """
         Criando a senha de acordo com o atendimento
         """

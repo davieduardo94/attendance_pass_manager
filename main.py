@@ -9,7 +9,7 @@ def client_code(passwodManager: PasswordManager):
     # aceesando o nome da classe
     print(f'App: Carregado com {passwodManager.__class__.__name__}')
     # chamando o metodo de PassworManager
-    print(f"{passwodManager.createAttendance()}")
+    print(f"{passwodManager.create_attendance()}")
 
 if __name__ == "__main__":
     client_code(NormalAttendance('Normal'))

@@ -10,7 +10,7 @@ class PriorityPassword(PasswordGenerator):
         self.attendance_type = attendance_type
         
 
-    def generatePwd(self):
+    def generate_pwd(self):
         if self.__init == 0:
             self.__password = self.__init + 1
             self.__init += 1

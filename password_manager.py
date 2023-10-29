@@ -2,10 +2,10 @@ from i_password_generator import PasswordGenerator
 
 # Factory Method
 class PasswordManager():
-    def createPwd(self):
+    def create_pwd(self):
         pass
     
-    def createAttendance(self):
-        password = self.createPwd()
-        return f"Gerando senha\n{password.generatePwd()}"
+    def create_attendance(self):
+        password = self.create_pwd()
+        return f"Gerando senha\n{password.generate_pwd()}"
     
