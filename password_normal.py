@@ -9,7 +9,6 @@ class NormalPassword(PasswordGenerator):
     def __init__(self, attendance_type):
         self.attendance_type = attendance_type
         
-
     def generatePwd(self):
         if self.__init == 0:
             self.__password = self.__init + 1
@@ -19,3 +18,6 @@ class NormalPassword(PasswordGenerator):
             self.__init += 1
         result = "Senha {}: N{}".format(self.attendance_type,self.__password)
         return result
+    
+    def saveHistory(self, last_password, password):
+        pass
